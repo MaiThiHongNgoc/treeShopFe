@@ -1,0 +1,80 @@
+/* Container and Form Styling */
+.tree-form {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .tree-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .tree-form label {
+    display: block;
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Input fields and Textarea */
+  .tree-form input[type="text"],
+  .tree-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  .tree-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Buttons */
+  .tree-form .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .tree-form .add-btn {
+    background-color: #3d804b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tree-form .reset-btn {
+    background-color: #cc6c5a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tree-form .add-btn:hover {
+    background-color: #88b485;
+  }
+  
+  .tree-form .reset-btn:hover {
+    background-color: #b35b49;
+  }
+  
+  /* Image Preview */
+  img.tree-image-preview {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
